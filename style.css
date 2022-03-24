@@ -160,6 +160,7 @@ html {
 .noticia-conteudo {
   color: var(--cor-conteudo);
   font-size: 79%;
+  margin-top: 2%;
 }
 
 .rodape {
@@ -239,8 +240,9 @@ html {
   }
 
   .foto-noticia {
-    width: 130%;
-    max-height: 177px;
+    min-width: 127%;
+    max-width: 127%;
+    min-height: 200px;
   }
 
   .noticia {
